@@ -6,8 +6,8 @@ int main()
 {
 	ofstream out("output.txt");
     ifstream in("input.txt");
+    
     int t;in>>t;
-
     while(t--)
     {
         int n;in>>n;
